@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@theme {
+    --color-header: rgb(197, 216, 157);
+    --color-footer: rgb(6, 30, 41);
+    --color-background: #0F172A ;
+    --color-text: #F8FAFC;
+    --color-primary: #F59E0B;
+    --color-accent: #1E293B ;
+    --color-goldHover: #D97706;
+    --color-error: #DC2626;
+    --animate-marquee: scroll 22s linear infinite;
+    
+}
+
+
+@keyframes scroll {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+
