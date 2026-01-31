@@ -86,6 +86,7 @@ export default function ContactForm({contactref}) {
               onChange={formik.handleChange}
               onBlur={formik.handleBlur}
               className="w-full p-3 border text-text border-primary bg-background rounded-lg focus:ring-2 focus:ring-goldHover outline-none"
+
             />
 
             {formik.errors.contact && formik.touched.contact && (
