@@ -1,9 +1,9 @@
 import React, { useRef } from "react";
 import Form from "./ContactForm";
 import { Route, Routes } from "react-router-dom";
-import Navbar from "../Navbar";
-import Content from "../Content";
-import Footer from "../Footer";
+import Navbar from "./Navbar";
+import Content from "./Content";
+import Footer from "./Footer";
 function App() {
   const contactUs=useRef(null);
   const aboutUs=useRef(null);

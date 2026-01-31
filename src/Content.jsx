@@ -1,7 +1,7 @@
 import About from "./About";
-import ContactForm from "./src/ContactForm";
+import ContactForm from "./ContactForm";
 import Products from "./Products";
-import Hero from "./src/Hero";
+import Hero from "./Hero";
 function Content({aboutref,contactref,productref}){
     return (
         
