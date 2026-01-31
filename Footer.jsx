@@ -2,7 +2,8 @@ import React from "react";
 import { RiCopyrightLine } from "react-icons/ri";
 export default function Footer(){
     return(
-        <div className="border-t border-primary text-text font-semibold flex flex-col lg:flex-row justify-evenly items-center h-24 w-full text-md lg:text-lg xl:text-2xl mt-12">
+        <div className="border-t border-primary text-text font-semibold  h-24 w-full text-md lg:text-lg xl:text-2xl mt-12 flex flex-col items-center justify-center">
+        <div className="flex flex-col lg:flex-row lg:justify-evenly items-center lg:gap-20">
             <div className="flex gap-2">
                 <p>Copyright </p>
                 <RiCopyrightLine />
@@ -13,7 +14,8 @@ export default function Footer(){
                 <span>|</span>
                 <p>All rights reserved</p>
             </div>
-            
+        </div>
+            <div>Powered by PV17</div>
         </div>
     );
 }
